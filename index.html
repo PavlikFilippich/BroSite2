@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Brocoders</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
     
 </head>
 <body>
-    <div class="wrapper">
+    
     <header>
         <figure class="shade"></figure>
         <figure class="top_1"></figure>
         <br>
-        <div class="string">
+        <div class="wrapper">
+        <div class="string ">
             <div class="string__left">
                 <section class="logo-3">
                     <img src="images/logo-3.png" alt="logo" >
@@ -47,6 +47,7 @@
             <br>
             <input type="button" value="ZNAJDŹ OPIEKUNKĘ" class="reklama__search_guardian">
         </div>
+    </div>
     </header>
     <main>
         <section class="news_after_header">
@@ -55,7 +56,8 @@
     
         <span class="specjaliści">Specjaliści Różnych Kategorii</span><br>
         
-        <section class="kategorii">
+        <section >
+            <div class="wrapper kategorii">
             <figure class="kategorii__blocks">
                 <img src="images/hands_and_heart.png" alt="hands_and_heart">
                 <figcaption>
@@ -116,13 +118,14 @@
                     </span>
                 </figcaption>
             </figure>
+        </div>
         </section>
         
-        <section>
-            <p class="banner">
-                <img src="images/twowomans.png" class="twowoman" ></p>
-        </section>
-        <section class="How_this_work">
+        <div class="twowoman bg_image"></div>
+        
+        <section >
+            <div class="How_this_work">
+                <div class="wrapper">
                     <div class="sequence_left">
                         <div class="sequence_left__info">
                             Jak Działamy
@@ -187,15 +190,17 @@
                             </div>
                         </div>
                     </div>
-                
+                </div>
+            </div>
             </section>
 
-            <section><img src="images/doctor.png" class="doctor" ></section>
+            <div class="doctor bg_image"></div>
 
             <div class="comments_title">
                 What do our Clients Say?
             </div>
-            <section class="comment">
+            <section >
+                <div class="comment wrapper">
                 <div class="comment__people">
                     <div class="comment__text">
                         <div class="messagebox">Moja mama zachorowała jakiś czas temu i nie jest 
@@ -329,14 +334,16 @@
                             <img src="images/oldwoman.png" alt="client avatar">
                         </div>
                     </div>
+                </div>
                 </div>
             </section>
 
-            <section class="two_woman_smile"><img src="images/two_womans_smile.png" alt="two woman smile"></section>
+            <div class="two_woman_smile bg_image"></div>
 
-            <section class="strong_side">
-                <img src="images/strong_side.png" alt="blue_background_and_heard" class="blue_background_and_heard" >
-                
+            <section class=" strong"  >
+                   <!-- <div class="bg_hearth"></div> -->
+                <div class="wrapper bg_strong">
+                <div class="strong_side" >
                         <div class="strong_side__info">
                             <div class="strong_side__text">
                                 <div class="blue_line"></div>
@@ -378,8 +385,10 @@
                                 Nasze Mocne Strony
                             </div>
                             <input type="button" value="ZNAJDŹ OPIEKUNKĘ" class="button_after_big_text">
-                        </div>    
-            </section>   
+                        </div>   
+                    </div>
+                </div>  
+            </section>     
             <section class="hello">
                 <div class="number">
                         <div class="number__rowOne">
@@ -393,6 +402,7 @@
             </section>   
         </main>
         <footer >
+            <div class="wrapper">
             <div class="footer">
                 <div class="footer_left">
                     <img src="images/logo-3.png" class="footer_left__logo">
@@ -452,7 +462,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
-    </div>	
+        </div>
+        </footer>	
 </body>
 </html>
