@@ -1244,7 +1244,7 @@ footer {
       margin-top: 10px;
       margin-left: 0; }
       .fixed .string_fixed .string__left_fixed .logo-3_fixed {
-        width: 40%; }
+        width: 150px; }
       .fixed .string_fixed .string__left_fixed .help_center_fixed, .fixed .string_fixed .string__left_fixed .call_us_fixed {
         font-size: 12px;
         display: -webkit-box;
@@ -1318,6 +1318,8 @@ footer {
     height: 15rem; }
   .news_after_header {
     margin-top: -10px; }
+  .kategorii {
+    padding: 0; }
   .How_this_work .wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
